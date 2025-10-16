@@ -1,0 +1,21 @@
+{
+  "name": "prefix-filename-extension",
+  "displayName": "Prefix Filename Extension",
+  "description": "Add a fixed prefix to all filenames in the current folder",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+    "onCommand:okra-name"
+],
+  "main": "./student_number.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "okra-name",
+        "title": "okra-name"
+      }
+    ]
+  }
+}
